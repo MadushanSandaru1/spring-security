@@ -22,7 +22,7 @@ public class UserManagementController {
         return USERS;
     }
 
-    PostMapping
+    @PostMapping
     public void registerNewUser(@RequestBody User user) {
         System.out.println(user);
     }
